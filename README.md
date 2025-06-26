@@ -33,3 +33,19 @@ A desktop application built with Java Swing that allows users to manage and anal
 ```bash
 javac StudentGradeTrackerGUI.java
 java StudentGradeTrackerGUI
+Student Grades:
+Alice                 95.00
+Bob                   88.50
+
+--- Summary ---
+Average Grade: 91.75
+Highest Grade: 95.00
+Lowest Grade: 88.50
+📁 Project Structure
+StudentGradeTracker/
+│
+├── StudentGradeTrackerGUI.java   # Main Java source code
+├── student_summary.txt           # Exported file (generated at runtime)
+└── README.md                     # Project description
+
+
